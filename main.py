@@ -38,7 +38,7 @@ scoreboard.color("white")
 scoreboard.penup()
 scoreboard.hideturtle()
 scoreboard.score = 0
-with open('finished-projects/81-100. [PRO]/94. [Game] Space Invaders/highscore.txt', mode="r") as get_score:
+with open('highscore.txt', mode="r") as get_score:
     scoreboard.highscore = int(get_score.read())
 
 
