@@ -164,7 +164,7 @@ while game_is_on:
         game_is_on = False
         if scoreboard.score > scoreboard.highscore:
             scoreboard.highscore = scoreboard.score
-            with open("finished-projects/81-100. [PRO]/94. [Game] Space Invaders/highscore.txt", mode="w") as score_txt:
+            with open("highscore.txt", mode="w") as score_txt:
                 score_txt.write(str(scoreboard.highscore))
 
     speed *= 0.999
